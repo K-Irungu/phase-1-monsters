@@ -1,0 +1,51 @@
+.box {
+width: 400px;
+height:300px;
+text-align: left;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+top: 10px;
+box-sizing:border-box;
+
+
+color: #312F2F;
+}
+
+li {
+    object-fit: contain;
+    text-align: left;
+    padding: 10px;
+    line-height: 10px;
+    top:10px;
+    
+}
+
+.box > p {
+    object-fit: contain;
+    text-align: left;
+    padding: 20px;
+    line-height: 20px;
+    top:40px;
+
+}
+
+
+#back {
+    text-align: center;
+    
+}
+
+#forward {
+    text-align: center;
+
+}
+
+#buttons-container > p {
+   margin-left: 60px;
+}
